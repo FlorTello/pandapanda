@@ -18,13 +18,19 @@ nav {
   height: 50px;
 }
 
+.nav-bar {
+  width: 990px;
+  margin: auto;
+}
+
 .nav-bar a {
-  color: #fff;
+  color: #fff2f5;
   transition: 0.3s;
 }
 
 .nav-bar a:hover {
   font-weight: bold;
+  color: #fff;
 }
 
 .nav-bar li {
@@ -84,7 +90,7 @@ nav {
   cursor: pointer;
 }
 
-.origen-article, .extincion-article {
+#origen-article, #extincion-article {
   color: #fff;
   width: 50%;
   display: table-cell;
@@ -93,5 +99,5 @@ nav {
 }
 
 p {
-  margin-bottom: 14px;
+  margin-bottom: 15px;
 }
