@@ -83,3 +83,15 @@ nav {
 .close:hover {
   cursor: pointer;
 }
+
+.origen-article, .extincion-article {
+  color: #fff;
+  width: 50%;
+  display: table-cell;
+  text-align: justify;
+  padding: 25px;
+}
+
+p {
+  margin-bottom: 14px;
+}
