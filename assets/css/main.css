@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   font-family: 'Nunito', sans-serif;
+  text-decoration: none;
   font-size: 16px;
   margin: 0;
   padding: 0;
@@ -18,7 +19,6 @@ nav {
 }
 
 .nav-bar a {
-  text-decoration: none;
   color: #fff;
   transition: 0.3s;
 }
@@ -31,4 +31,21 @@ nav {
   display: inline-block;
   list-style: none;
   padding: 15px;
+}
+
+.container {
+  width: 990px;
+  margin: auto;
+}
+
+.options button {
+  background-color: rgb(231, 18, 50);
+  color: #fff;
+  border: none;
+  padding: 5px;
+  width: 33.05%
+}
+
+.options button:hover {
+  background-color: rgb(255, 40, 72);
 }
