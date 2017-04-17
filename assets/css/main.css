@@ -87,7 +87,7 @@ nav {
   position: absolute;
   z-index: 2;
   top: 3px;
-  right: 7px;
+  left: 7px;
 }
 
 .close:hover {
