@@ -8,11 +8,11 @@
 }
 
 body {
-  background-color: rgb(41, 23, 2);
+  background-color: #1d1a05;
 }
 
 nav {
-  background-color: rgb(231, 18, 50);
+  background-color: #ca3c25;
   color: #fff;
   width: 100%;
   height: 50px;
@@ -49,7 +49,7 @@ nav {
 }
 
 .options button {
-  background-color: rgb(231, 18, 50);
+  background-color: #ca3c25;
   color: #fff;
   border: none;
   padding: 5px;
@@ -58,7 +58,7 @@ nav {
 }
 
 .options button:hover {
-  background-color: rgb(255, 40, 72);
+  background-color: #e74025;
   cursor: pointer;
 }
 
