@@ -44,12 +44,16 @@ nav {
   margin: auto;
 }
 
+.options {
+  padding: 15px;
+}
+
 .options button {
   background-color: rgb(231, 18, 50);
   color: #fff;
   border: none;
   padding: 5px;
-  width: 33.05%;
+  width: 33.04%;
   outline: 0;
 }
 
@@ -61,7 +65,7 @@ nav {
 .img-panda {
   border: 4px rgb(172, 172, 172) solid;
   margin-left: -4px;
-  margin: 18px 0px 18px 18px;
+  margin: 15px 0px 15px 15px;
   display: inline-block;
   position: relative;
 }
@@ -92,12 +96,20 @@ nav {
 
 #origen-article, #historia-article {
   color: #fff;
-  width: 50%;
+  width: 492px;
   display: table-cell;
   text-align: justify;
-  padding: 25px;
+  padding: 15px;
 }
 
 p {
   margin-bottom: 15px;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.none {
+  display: none;
 }
