@@ -26,6 +26,7 @@ nav {
 .nav-bar a {
   color: #fff2f5;
   transition: 0.3s;
+  text-decoration: underline;
 }
 
 .nav-bar a:hover {
