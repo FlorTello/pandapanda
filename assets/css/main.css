@@ -57,6 +57,7 @@ nav {
   margin-left: -4px;
   margin: 18px 0px 18px 18px;
   display: inline-block;
+  position: relative;
 }
 
 .img-panda, img {
@@ -69,4 +70,16 @@ nav {
   object-fit: cover;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
+}
+
+.close {
+  color: #fff;
+  position: absolute;
+  z-index: 2;
+  top: 3px;
+  right: 7px;
+}
+
+.close:hover {
+  cursor: pointer;
 }
