@@ -51,3 +51,22 @@ nav {
   background-color: rgb(255, 40, 72);
   cursor: pointer;
 }
+
+.img-panda {
+  border: 4px rgb(172, 172, 172) solid;
+  margin-left: -4px;
+  margin: 18px 0px 18px 18px;
+  display: inline-block;
+}
+
+.img-panda, img {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+}
+
+.img-panda img {
+  object-fit: cover;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
