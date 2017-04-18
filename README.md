@@ -56,7 +56,13 @@ Se agregaron las clases **.hidden** y **.none** con propiedades de sus mismos no
 ![alt text](screenshots/css4.png "Sección de galería y artículos")
 
 ### Funcionalidad
+Primero se trabajó en el área de almacenamiento de información, en éste caso imágenes, para lo cual se creó un array **imgPanda** con objetos que guardan el tíulo y ruta de las imágenes.
+Luego, se implementó la función **createImgPanda()**, encargada de recorrer el array **imgPanda** e iniciar la creación de elementos div (contenedor de imagen), imagen y span ("x") por cada objeto encontrado. Cada elemento se agrega a un **documentFragment** para evitar el repintado de la página en cada iteración. Al finalizar la creación, se agrega el  **documentFragment** a la sección galería del documento. Finalmente, se ejecuta la función para que la página cargue inmediatamente con las imágenes creadas.
+
 ![alt text](screenshots/js2.png "Función para crear galería de imágenes")
+
+En el segundo documento documento js podemos encontrar la funcionalidad de los elementos clickeables. Para el boton de origen y article se trabajo con toggle para agegar y quitar la visualización de los textos. Para ocultar las imagenes se trabajó con el parentNode para identificar al elemento padre del target y así darle la clase .none y por último con el boton restaurar se remueven todas las clases .none.
+
 ![alt text](screenshots/js1.png "Funcionalidad en botones y ocultar fotos")
 
 ## Construido con
