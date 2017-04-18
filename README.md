@@ -4,7 +4,7 @@
 
 En este proyecto se desarrolló la página web de la organización Pandapanda, la cuál tiene como objetivo difundir información acerca de la vida silvestre de los pandas. Para ello se estructuró el sitio en tres secciones: barra de navegación, galería de imágenes y sección de artículos, las cuales fueron dotadas de funcionalidades y diseño de acuerdo a lo solicitado.
 
-Mira el demo [aquí](https://mishmore.github.io/pandapanda/)
+Mira el demo [aquí.](https://mishmore.github.io/pandapanda/)
 
 ## Requerimientos
 
@@ -57,7 +57,7 @@ Se agregaron las clases **.hidden** y **.none** con propiedades de sus mismos no
 
 ![alt text](screenshots/css4.png "Sección de galería y artículos")
 
-Vista final de la página con css.
+Vista final de la página con CSS.
 
 ![alt text](screenshots/democss.png "CSS")
 
