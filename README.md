@@ -23,6 +23,10 @@ En este proyecto se desarrolló la página web de la organización Pandapanda, l
 + Al hacer click en el botón "Historia" mostrar/ocultar la información de la colummna derecha.
 
 ## Proceso
+
+### Estructura
+
+![alt text](screenshots/html2.png "Sección de galería y artículos")
 + Display
 + Visibility
 
