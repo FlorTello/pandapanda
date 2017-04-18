@@ -4,6 +4,8 @@
 
 En este proyecto se desarrolló la página web de la organización Pandapanda, la cuál tiene como objetivo difundir información acerca de la vida silvestre de los pandas. Para ello se estructuró el sitio en tres secciones: barra de navegación, galería de imágenes y sección de artículos, las cuales fueron dotadas de funcionalidades y diseño de acuerdo a lo solicitado.
 
+Mira el demo [aquí](https://mishmore.github.io/pandapanda/)
+
 ## Requerimientos
 
 ### Diseño
@@ -55,15 +57,32 @@ Se agregaron las clases **.hidden** y **.none** con propiedades de sus mismos no
 
 ![alt text](screenshots/css4.png "Sección de galería y artículos")
 
+Vista final de la página con css.
+
+![alt text](screenshots/democss.png "CSS")
+
+
 ### Funcionalidad
 Primero se trabajó en el área de almacenamiento de información, en éste caso imágenes, para lo cual se creó un array **imgPanda** con objetos que guardan el tíulo y ruta de las imágenes.
 Luego, se implementó la función **createImgPanda()**, encargada de recorrer el array **imgPanda** e iniciar la creación de elementos div (contenedor de imagen), imagen y span ("x") por cada objeto encontrado. Cada elemento se agrega a un **documentFragment** para evitar el repintado de la página en cada iteración. Al finalizar la creación, se agrega el  **documentFragment** a la sección galería del documento. Finalmente, se ejecuta la función para que la página cargue inmediatamente con las imágenes creadas.
 
 ![alt text](screenshots/js2.png "Función para crear galería de imágenes")
 
-En el segundo documento documento js podemos encontrar la funcionalidad de los elementos clickeables. Para el boton de origen y article se trabajo con toggle para agegar y quitar la visualización de los textos. Para ocultar las imagenes se trabajó con el parentNode para identificar al elemento padre del target y así darle la clase .none y por último con el boton restaurar se remueven todas las clases .none.
+En el segundo documento documento js podemos encontrar la funcionalidad de los elementos clickeables. Para el boton de **Origen** e **Historia** se trabajo con **classList.toggle** para agregar/remover la clase **hidden**, que quita la visualización a la columna de texto. Para ocultar las imagenes se trabajó con **target.parentNode** para identificar al div padre del span clickeado y así darle la clase **.none**. El último boton **restaurar** remueve todas las clases **.none** de las imágenes.
 
 ![alt text](screenshots/js1.png "Funcionalidad en botones y ocultar fotos")
+
+Vista al hacer click en "x" en la imagen.
+
+![alt text](screenshots/democlose.png "close")
+
+Espacio de imagenes retraído si se eliminan todas.
+
+![alt text](screenshots/demoallclosed.png "Todas las fotos closed")
+
+Ocultar los textos de Origen e Historia
+
+![alt text](screenshots/demohide.png "Hide texto")
 
 ## Construido con
 + HTML5
