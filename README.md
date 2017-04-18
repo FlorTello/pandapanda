@@ -34,9 +34,15 @@ La sección de galería se implementó dinámicamente mediante una función de J
 ![alt text](screenshots/html2.png "Sección de galería y artículos")
 
 ### Diseño
-
+![alt text](screenshots/css1.png "Sección de galería y artículos")
+![alt text](screenshots/css2.png "Sección de galería y artículos")
+![alt text](screenshots/css3.png "Sección de galería y artículos")
+![alt text](screenshots/css4.png "Sección de galería y artículos")
 + Display
 + Visibility
+
+### Funcionalidad
+![alt text](screenshots/js1.png "Sección de galería y artículos")
 
 ## Construido con
 + HTML5
