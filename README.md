@@ -42,7 +42,8 @@ La sección de galería se implementó dinámicamente mediante una función de J
 + Visibility
 
 ### Funcionalidad
-![alt text](screenshots/js1.png "Sección de galería y artículos")
+![alt text](screenshots/js1.png "Función para crear galería de imágenes")
+![alt text](screenshots/js2.png "Funcionalidad en botones y ocultar fotos")
 
 ## Construido con
 + HTML5
