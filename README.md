@@ -35,25 +35,29 @@ La sección de galería se implementó dinámicamente mediante una función de J
 
 ### Diseño
 Se definieron los valores iniciales de las cajas con border-box, margin, padding y tipo de fuente. A continuación se colocaron los colores para la barra de navegación y botones (rojo :#ca3c25) y para el fondo (marrón: #1d1a05).
+
 ![alt text](screenshots/css1.png "Sección de galería y artículos")
 
 En la contrucción de la barra de navegavión, la propiedad **list-style: none** se utilizó para remover los guiones característicos de la lista desordenada. Se utilizó también **display: inline-block** para colocar los enlaces de las pestañas uno al lado del otro.
+
 ![alt text](screenshots/css2.png "Sección de galería y artículos")
 
 Se le añadió propiedades de estilo a cada botón y un cambio de color al pasar el cursos con la propiedad **hover**. 
 Se le añadieron propiedades de tamaño y **overflow: hidden** a div e imagen para evitar algún desborde. 
 Se configuraron los estilos al div contenedor de la imagen y se le añadió la propiedad **position: relative** para poder situar el elemento "x" en su esquina superior izquierda. La propiedad **display: inline-block** fue utilizada para colocar una imagen junto a la otra. 
 A la imagen se le aplicó un filtro de blanco y negro y **object-fit: cover** para que la imagen ocupe todo el tamaño de su contenedor  y así tener una uniformidad en las fotos y una escala sin distorsiones.
+
 ![alt text](screenshots/css3.png "Sección de galería y artículos")
 
 Se colocó el elemento "x" con **position: absolute** para poder situarlo donde corresponde y se comporte como un elemento clickeable.
 A los artículos se les aplicó **display: table-cell** para darles el formato de dos columnas y con **text-align: justify** se justificó su contenido.
 Se agregaron las clases **.hidden** y **.none** con propiedades de sus mismos nombres para utilizarlas luego con javascript.
+
 ![alt text](screenshots/css4.png "Sección de galería y artículos")
 
 ### Funcionalidad
-![alt text](screenshots/js1.png "Función para crear galería de imágenes")
-![alt text](screenshots/js2.png "Funcionalidad en botones y ocultar fotos")
+![alt text](screenshots/js2.png "Función para crear galería de imágenes")
+![alt text](screenshots/js1.png "Funcionalidad en botones y ocultar fotos")
 
 ## Construido con
 + HTML5
